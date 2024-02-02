@@ -14,6 +14,7 @@ export const Page = () => {
         onLogout={() => setUser(undefined)}
         onCreateAccount={() => setUser({ name: 'Jane Doe' })}
       />
+      
 
     </article>
   );

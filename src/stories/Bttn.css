@@ -1,0 +1,31 @@
+.bttn-button {
+    display: flex;
+    width: 150px;
+    border-radius: 0.5rem;
+    font-size: 10px;
+    align-items: center;
+    padding-left: 15px;
+    background-color: #EFEFEF;
+    align-content: start;
+
+}
+
+.bttn-icon {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-right: 10px;
+}
+
+.bttn-button-text {
+    color: black;
+    font-size: 11px;
+    font-family: "Roboto";
+    font-weight: 800;
+
+    /* text-align: left; */
+    margin-left: 20px;
+    /* background-color: blue; */
+}

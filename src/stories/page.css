@@ -2,10 +2,154 @@
   font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
-  padding: 48px 20px;
-  margin: 0 auto;
-  max-width: 600px;
+
+  padding: 20px 80px;
+  margin: 0px;
+  /* background-color: #66bf3c; */
   color: #333;
+}
+
+.storybook-page-firstdiv {
+  border: 1px solid grey;
+
+  border-radius: 0.5rem;
+  padding: 40px 15px;
+  ;
+}
+
+.storybook-page-firstdiv-btn {
+  display: flex;
+  gap: 2rem;
+}
+
+.storybook-page-firstdiv-card {
+  margin-top: 20px;
+  display: flex;
+  /* flex-direction: column; */
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+
+
+.storybook-page-firstdiv-card-photo {
+  width: 50%;
+  object-fit: cover;
+  display: flex;
+
+
+}
+
+.span-details {
+  display: flex;
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+  background-color: #66bf3c;
+}
+
+
+.storybook-page-firstdiv-card-text {
+  width: 50%;
+  border: 1px solid grey;
+  padding: 10px;
+  border-radius: 0.5rem;
+
+
+}
+
+.heading-storybook-page {
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heading-storybook-page h1 {
+  font-size: 25px;
+}
+
+.heading-storybook-page button {
+  border: none;
+  background-color: #00DB4A;
+  color: white;
+  width: 53px;
+  height: 32px;
+  border-radius: 0.5rem;
+}
+
+.form-storybook-page {
+  padding: 0px 20px;
+
+}
+
+.detail-item {
+  margin-bottom: 10px;
+}
+
+.detail-label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.detail-value {
+  color: #666;
+}
+
+/* Existing CSS code remains unchanged */
+/* Existing CSS code remains unchanged */
+
+.last-value {
+  color: blue;
+  text-decoration: underline;
+}
+
+.last-two {
+  margin-top: 10px; /* Adjust as needed */
+}
+
+.detail-item {
+  margin-bottom: 10px;
+}
+
+.photo-details {
+  position: absolute;
+  bottom: 25px;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  left: 100px;
+  width: 40%;
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Existing CSS code remains unchanged */
+
+.last-value {
+  color: blue;
+  text-decoration: underline;
+}
+
+.bottom-details {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.storybook-page-firstdiv-card-photo-Image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 14px;
+
+}
+
+.span-details-form {
+  font-weight: 900;
+  background-color: #e7fdd8;
 }
 
 .storybook-page h2 {

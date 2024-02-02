@@ -4,6 +4,7 @@
   border: 2 solid black;
   border-radius: 1em;
   cursor: pointer;
+  background-color: black;
   display: inline-block;
   line-height: 1;
 }

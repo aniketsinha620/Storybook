@@ -8,27 +8,30 @@ export const Header = ({ user, onLogin, onLogout, onCreateAccount }) => (
   <header>
     <div className="storybook-header">
       <div>
-        <FaArrowLeft className="arrow-icon"  />
+        <div className='arrow'>
+          <FaArrowLeft className="arrow-icon" />
+          <div className='arrow-heading'>
+            <div className='arrow-heading-1'>
+              <h1>VMS</h1>
+              <h2>/Camera/Cameras Detail</h2>
+            </div>
+            <p className='arrow-heading-first'>Bank Entrance-front-view Camera1</p>
+            <p className='arrow-heading-second'>View and manage camera details, recordings and connection details</p>
 
-        <h1>Acme</h1>
+          </div>
+
+
+        </div>
       </div>
-      <div>
-        {/* {user ? (
-          <>
-            <span className="welcome">
-              Welcome, <b>{user.name}</b>!
-            </span>
-            <Button size="small" onClick={onLogout} label="Log out" />
-          </>
-        ) : (
-         
-        )} */}
-        <>
+
+      <>
+
+        <div className='btn'>
           <Button size="small" onClick={onLogin} label="Edit Camera" />
           <Button size="small" onClick={onCreateAccount} label="Deactivate" />
           <Button size="small" onClick={onCreateAccount} danger="danger" label="Delete Camera" />
-        </>
-      </div>
+        </div>
+      </>
     </div>
   </header>
 );

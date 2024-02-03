@@ -1,0 +1,58 @@
+.tables {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    /* Center the table horizontally */
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    /* Add horizontal lines between rows */
+}
+
+thead th {
+    background-color: #f2f2f2;
+    /* Add background color to header row */
+}
+
+tbody tr:hover {
+    background-color: #f2f2f2;
+    /* Change background color of row on hover */
+}
+
+.inactive {
+    border: none;
+    background-color: red !important;
+    color: white;
+    width: 60px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+.tables button {
+    border: none;
+    background-color: #00DB4A;
+    color: white;
+    width: 60px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+}

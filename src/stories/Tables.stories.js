@@ -1,5 +1,5 @@
 import React from 'react';
-import Tables from './Tables'; // Import the component
+import Tables from './Tables/Tables'; // Import the component
 
 export default {
     title: 'Components/Tables', // Storybook category

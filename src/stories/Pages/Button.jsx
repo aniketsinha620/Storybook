@@ -52,9 +52,7 @@ Button.propTypes = {
   primary: PropTypes.bool,
 
   backgroundColor: PropTypes.string,
-  /**
-   * How large should the button be?
-   */
+ 
   size: PropTypes.oneOf(['small', 'medium', 'large', 'black', 'large-high', 'large-high-danger']),
   /**
    * Button contents

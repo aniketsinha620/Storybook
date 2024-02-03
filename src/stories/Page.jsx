@@ -1,12 +1,12 @@
 import React from 'react';
 import { BiVideoRecording } from "react-icons/bi";
-import { Header } from './Header';
+import { Header } from './Pages/Header';
 import { LuRefreshCcwDot } from "react-icons/lu";
-import Btn from './Bttn'; // Importing the component correctly
+import Btn from './Pages/Bttn'; // Importing the component correctly
 import './page.css';
 import Image from 'next/image';
 import pageImage from './assets/page.png';
-import Page_card from './Page_card';
+import Page_card from './Pages/Page_card';
 
 export const Page = () => {
   const [user, setUser] = React.useState();

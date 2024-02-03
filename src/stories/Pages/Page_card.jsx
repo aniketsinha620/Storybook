@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import { FaPlayCircle } from 'react-icons/fa'; // Importing the play button icon
 import './Page_card.css';
-import pageImage from './assets/page.png';
+import pageImage from '../assets/page.png';
 
 export default function Page_card(props) {
     const { image, time } = props;

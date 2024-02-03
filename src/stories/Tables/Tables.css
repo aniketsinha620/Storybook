@@ -9,7 +9,7 @@
 }
 
 table {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     /* Center the table horizontally */
     border-collapse: collapse;
@@ -17,7 +17,7 @@ table {
 
 th,
 td {
-    padding: 20px;
+    padding: 10px;
     text-align: left;
     border-bottom: 1px solid #ddd;
     /* Add horizontal lines between rows */

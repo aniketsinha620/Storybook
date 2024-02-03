@@ -37,6 +37,15 @@
   background-color: black;
   color: white;
   padding: 12px 24px;
+  width: 90%;
+  margin: 30px;
   margin-bottom: 40px;
   margin-top: 10px;
+}
+
+.storybook-button--black {
+  background-color: black;
+  font-size: 14px;
+
+  color: white;
 }

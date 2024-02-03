@@ -2,10 +2,10 @@ import { within, userEvent, expect } from '@storybook/test';
 import { Page } from './Page';
 
 export default {
-  title: 'Example/Page',
+  title: 'Components/Page',
   component: Page,
   parameters: {
-    
+
     layout: 'fullscreen',
   },
 };

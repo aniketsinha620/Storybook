@@ -21,7 +21,7 @@ export const Button = ({ primary, backgroundColor, size, label, danger, menu, ..
       {...props}
     >
       <span style={labelStyle}>{label}</span>
-      {menu && <div className="additional-content">Aniket Sinha</div>}
+      {menu && <div className="additional-content">View Cameras</div>}
       <style jsx>{`
         button {
           background-color: ${backgroundColor};

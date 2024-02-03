@@ -10,9 +10,9 @@ export const Button = ({ primary, backgroundColor, size, label, danger, menu, ..
   const dangerClass = danger ? 'danger' : '';
 
   // Style for aligning label to the right
-  const labelStyle = {
-    textAlign: 'right'
-  };
+  // const labelStyle = {
+  //   textAlign: 'right'
+  // };
 
   return (
     <button
@@ -20,7 +20,7 @@ export const Button = ({ primary, backgroundColor, size, label, danger, menu, ..
       className={['storybook-button', `storybook-button--${size}`, mode, dangerClass].join(' ')}
       {...props}
     >
-      <span style={labelStyle}>{label}</span>
+      <span>{label}</span>
       {menu && <div className="additional-content">View Cameras</div>}
       <style jsx>{`
         button {
@@ -29,6 +29,13 @@ export const Button = ({ primary, backgroundColor, size, label, danger, menu, ..
        
         .danger {
           color: red;
+          height: 40%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 14px;
+          padding: 10px;
+          
          border:2px solid red;
         }
         
@@ -52,7 +59,7 @@ Button.propTypes = {
   primary: PropTypes.bool,
 
   backgroundColor: PropTypes.string,
- 
+
   size: PropTypes.oneOf(['small', 'medium', 'large', 'black', 'large-high', 'large-high-danger']),
   /**
    * Button contents

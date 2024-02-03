@@ -23,8 +23,12 @@
 }
 
 .storybook-button--small {
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 14px;
-  padding: 15px 16px;
+  padding: 10px;
 }
 
 .storybook-button--medium {

@@ -49,3 +49,37 @@
 
   color: white;
 }
+
+.storybook-button--large-high {
+  background-color: white;
+  margin-bottom: 15px;
+  width: 700px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 16px;
+  height: 55px;
+  background: #F1F1F1;
+
+}
+
+.storybook-button--large-high-danger {
+  /* background-color: #612934; */
+
+  margin-bottom: 15px;
+  width: 700px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 16px;
+  height: 55px;
+  background: #FFBFCC;
+
+
+
+}
+
+.storybook-button--large-high label {
+  text: color;
+}
+

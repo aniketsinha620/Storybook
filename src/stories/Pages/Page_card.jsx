@@ -10,7 +10,7 @@ export default function Page_card(props) {
 
     return (
         <div className='page-img'>
-            <div className='image-container'>
+            <div className='page-image-container'>
                 <Image src={pageImage} alt='' className='page-img-Image' width={100} height={100} />
                 <div className='overlay'>
                     <div className="buttonContainer">

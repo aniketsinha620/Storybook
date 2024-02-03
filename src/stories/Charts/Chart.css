@@ -1,0 +1,71 @@
+.main-chart {
+
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.chart {
+    max-width: 900px;
+    mix-width: 500px;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    background-color: blue;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+        linear-gradient(0deg, #E5E5E5, #E5E5E5);
+    border: 1px solid #E5E5E5;
+    padding: 24px;
+    display: flex;
+    /* color: white; */
+}
+
+.chart-Image {
+    width: 200px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chart-Image-1 {
+
+    border: 2px solid white;
+    width:80%;
+    height:80%;
+    
+}
+
+.chart-text {
+    width: 80%;
+}
+
+.radio-chart {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 0.5rem;
+}
+
+.radio-chart-button {
+    display: flex;
+
+    display: flex;
+
+    justify-content: left;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.radio-chart-button button {
+    width: 20px;
+    /* background-color: aqua; */
+    border-radius: 50%;
+}
+
+.radio-chart-button p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    color: black;
+}

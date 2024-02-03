@@ -26,7 +26,9 @@ body {
 }
 
 .login-form {
-    max-width: 400px;
+    max-width: 420px;
+    /* background-color: #0056b3; */
+
     margin: 0 auto;
     padding: 20px;
     box-shadow: 2px 2px 20px 0px #0000001A;
@@ -109,12 +111,14 @@ button {
 button:hover {
     background-color: #0056b3;
 }
-.main-forms h3{
 
- width: 80%;
- display: flex;
- margin-left: 30px;
+.main-forms h3 {
+
+    width: 80%;
+    display: flex;
+    margin-left: 30px;
 }
+
 .form-input {}
 
 .form-btn {
@@ -123,6 +127,6 @@ button:hover {
     width: 80%;
     margin-bottom: 20px;
     width: 80%;
-    
+
     margin-left: 30px;
 }

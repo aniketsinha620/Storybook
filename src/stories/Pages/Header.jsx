@@ -26,10 +26,10 @@ export const Header = ({ user, onLogin, onLogout, onCreateAccount }) => (
 
       <>
 
-        <div className='btn'>
-          <Button size="small" onClick={onLogin} label="Edit Camera" />
-          <Button size="small" onClick={onCreateAccount} label="Deactivate" />
-          <Button size="small" onClick={onCreateAccount} danger="danger" label="Delete Camera" />
+        <div className='header-btn'>
+          <Button size="small" label="Edit Camera" />
+          <Button size="small" label="Deactivate" />
+          <Button size="small" danger="danger" label="Delete Camera" />
         </div>
       </>
     </div>
@@ -40,11 +40,14 @@ Header.propTypes = {
   user: PropTypes.shape({
     name: PropTypes.string.isRequired,
   }),
-  onLogin: PropTypes.func.isRequired,
-  onLogout: PropTypes.func.isRequired,
-  onCreateAccount: PropTypes.func.isRequired,
+  // onLogin: PropTypes.func.isRequired,
+  // onLogout: PropTypes.func.isRequired,
+  // onCreateAccount: PropTypes.func.isRequired,
 };
 
 Header.defaultProps = {
   user: null,
 };
+// onClick={onLogin}
+// onClick={onCreateAccount}
+// onClick={onCreateAccount}

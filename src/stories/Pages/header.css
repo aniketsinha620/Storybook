@@ -32,7 +32,12 @@
 
   justify-content: space-between;
 }
+.header-btn{
+  width:40%;
+  /* background-color: #333; */
+  display: flex;
 
+}
 .arrow-heading-1 {
   display: flex;
   height: 60px;

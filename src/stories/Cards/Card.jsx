@@ -26,7 +26,7 @@ export default function Card() {
                         <div className='icons-card-container'>
                             <RiDeleteBin6Line size={24} className='first-icon' />
                             <BiVideoRecording size={24} />
-                            <VscGraph size={24} />
+                            <VscGraph size={24}/>
                         </div>
                     </div>
                 </div>

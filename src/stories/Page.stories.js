@@ -1,5 +1,5 @@
 import { within, userEvent, expect } from '@storybook/test';
-import { Page } from './Page';
+import { Page } from './Pages/Page';
 
 export default {
   title: 'Components/Page',

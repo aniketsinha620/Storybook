@@ -6,6 +6,7 @@ import Btn from './Bttn'; // Importing the component correctly
 import './page.css';
 import Image from 'next/image';
 import pageImage from './assets/page.png';
+import Page_card from './Page_card';
 
 export const Page = () => {
   const [user, setUser] = React.useState();
@@ -63,12 +64,44 @@ export const Page = () => {
             </div>
           </div>
 
-          <div>
-            
-                </div>
+          <div className='storybook-page-third'>
+
+            <h2>Camera Health and Alert</h2>
+            <div className='storybook-page-third-1'>
+              <div class="card">
+                <h2><span class="highlight">Offline Alert</span></h2>
+                <p>If camera is continuously offline for <br></br><span class="highlight">12 minutes</span>,<br /> send an email to <br /><span class="email">email.com</span>.</p>
+              </div>
+              <div class="card">
+                <h2><span class="highlight">Health Grade</span></h2>
+                <br></br><span class="highlight">96% </span>,<br /> <p>Cheers, this camera had no offline time in the last 30 days<br /><span class="email">Grade A</span></p>
+              </div>
+              <div class="card">
+                <h2><span class="highlight">Health Logs</span></h2>
+                <p>Today, 04:37 pm: Activated  <br />
+                  23 Aug, 02:22 pm: Deactivated <br />
+                  21 Aug, 05:12 am: Activated <br />
+                  20 Aug, 02:12 am: Deactivated <br />
+                  19 Aug, 02:12 am: Deactivated</p>
+              </div>
+
+            </div>
+          </div>
+
+          <div className='storybook-page-fourth'>
+            <div className='storybook-page-fourth-tittle'> <h2>Recent Recordings</h2>
+              <h4>View All</h4></div>
+
+            <div className='page_card'>
+              <Page_card image={pageImage} time="Today, 04:42 pm" />
+              <Page_card image={pageImage} time="Today, 02:14 pm" />
+              <Page_card image={pageImage} time="Today, 02:09 pm" />
+              <Page_card image={pageImage} time="Today, 01:11 pm" />
+
+            </div>
+          </div>
         </div>
-       
-        
+
       </div>
     </article>
   );

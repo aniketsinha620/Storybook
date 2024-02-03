@@ -10,7 +10,7 @@
 }
 
 .storybook-page-firstdiv {
-  border: 1px solid grey;
+  border: 1px solid #E5E5E5;
 
   border-radius: 0.5rem;
   padding: 40px 15px;
@@ -51,7 +51,7 @@
 
 .storybook-page-firstdiv-card-text {
   width: 50%;
-  border: 1px solid grey;
+  border: 1px solid #E5E5E5;
   padding: 10px;
   border-radius: 0.5rem;
 
@@ -105,10 +105,81 @@
 }
 
 .last-two {
-  margin-top: 10px; /* Adjust as needed */
+  margin-top: 10px;
+  /* Adjust as needed */
 }
 
 .detail-item {
+  margin-bottom: 10px;
+}
+
+.storybook-page-third {
+  margin-top: 30px;
+
+}
+
+.storybook-page-third-1 {
+  /* margin-top: px; */
+  /* background-color: #00DB4A; */
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 330px;
+  margin-top: 10px;
+  padding: 4px 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #E5E5E5;
+}
+
+.card h2 {
+  font-size: 20px;
+  margin: 0px;
+  color: #333;
+
+}
+
+p {
+  font-size: 16px;
+  /* color: #666; */
+}
+
+.highlight {
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+.email {
+  font-weight: bold;
+  color: blue;
+}
+.storybook-page-fourth{
+  margin-top: 20px;
+}
+.page_card {
+  display: flex;
+  /* background-color: #00DB4A; */
+  justify-content: space-between;
+  gap: 2rem;
+}
+.storybook-page-fourth-tittle{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.storybook-page-fourth-tittle h4{
+margin-right: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  text-decoration: underline;
+}
+.storybook-page-third .card {
   margin-bottom: 10px;
 }
 
